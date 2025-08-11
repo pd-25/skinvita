@@ -87,7 +87,7 @@
                                                          <img src="{{ asset('assets/images/menu-icon.png') }}"
                                                              class="align-self-center mr-3" alt="...">
                                                          <div class="media-body">
-                                                             <h5><a href="fillers.html">Fillers</a></h5>
+                                                             <h5><a href="{{route('fillers')}}">Fillers</a></h5>
                                                              <p>Aenean tempor leo lectus sit amet consectetur ex
                                                                  vehicula non. </p>
                                                          </div>
@@ -98,7 +98,7 @@
                                                          <img src="{{ asset('assets/images/menu-icon.png') }}"
                                                              class="align-self-center mr-3" alt="...">
                                                          <div class="media-body">
-                                                             <h5><a href="mesotherapy.html">Mesotherapy</a></h5>
+                                                             <h5><a href="{{route('mesotherapy')}}">Mesotherapy</a></h5>
                                                              <p>Aenean tempor leo lectus sit amet consectetur ex
                                                                  vehicula non. </p>
                                                          </div>
@@ -109,7 +109,7 @@
                                                          <img src="{{ asset('assets/images/menu-icon.png') }}"
                                                              class="align-self-center mr-3" alt="...">
                                                          <div class="media-body">
-                                                             <h5><a href="lasers.html">Lasers</a></h5>
+                                                             <h5><a href="{{route('lasers')}}">Lasers</a></h5>
                                                              <p>Aenean tempor leo lectus sit amet consectetur ex
                                                                  vehicula non. </p>
                                                          </div>
@@ -137,7 +137,7 @@
                                                          <img src="{{ asset('assets/images/menu-icon.png') }}"
                                                              class="align-self-center mr-3" alt="...">
                                                          <div class="media-body">
-                                                             <h5><a href="stem-cell-treatment.html">Stem Cell
+                                                             <h5><a href="{{route('stem-cell-treatment')}}">Stem Cell
                                                                      Treatment</a></h5>
                                                              <p>Aenean tempor leo lectus sit amet consectetur ex
                                                                  vehicula non. </p>
@@ -149,7 +149,7 @@
                                                          <img src="{{ asset('assets/images/menu-icon.png') }}"
                                                              class="align-self-center mr-3" alt="...">
                                                          <div class="media-body">
-                                                             <h5><a href="double-chin-reduction.html">Double Chin
+                                                             <h5><a href="{{route('double-chin-reduction')}}">Double Chin
                                                                      Reduction</a></h5>
                                                              <p>Aenean tempor leo lectus sit amet consectetur ex
                                                                  vehicula non. </p>
@@ -161,7 +161,7 @@
                                                          <img src="{{ asset('assets/images/menu-icon.png') }}"
                                                              class="align-self-center mr-3" alt="...">
                                                          <div class="media-body">
-                                                             <h5><a href="medifacial.html">Medifacial</a></h5>
+                                                             <h5><a href="{{route('medifacial')}}">Medifacial</a></h5>
                                                              <p>Aenean tempor leo lectus sit amet consectetur ex
                                                                  vehicula non. </p>
                                                          </div>
@@ -176,7 +176,7 @@
                                                          <img src="{{ asset('assets/images/menu-icon.png') }}"
                                                              class="align-self-center mr-3" alt="...">
                                                          <div class="media-body">
-                                                             <h5><a href="dermapen-and-dermaroller.html">Dermapen &
+                                                             <h5><a href="{{route('dermapen-and-dermaroller')}}">Dermapen &
                                                                      Dermaroller</a></h5>
                                                              <p>Aenean tempor leo lectus sit amet consectetur ex
                                                                  vehicula non. </p>
@@ -188,7 +188,7 @@
                                                          <img src="{{ asset('assets/images/menu-icon.png') }}"
                                                              class="align-self-center mr-3" alt="...">
                                                          <div class="media-body">
-                                                             <h5><a href="hair-transplant.html">Hair Transplant</a>
+                                                             <h5><a href="{{route('hair-transplant')}}">Hair Transplant</a>
                                                              </h5>
                                                              <p>Aenean tempor leo lectus sit amet consectetur ex
                                                                  vehicula non. </p>
@@ -200,7 +200,7 @@
                                                          <img src="{{ asset('assets/images/menu-icon.png') }}"
                                                              class="align-self-center mr-3" alt="...">
                                                          <div class="media-body">
-                                                             <h5><a href="skin-rejuvenation.html">Skin Rejuvenation</a>
+                                                             <h5><a href="{{route('skin-rejuvenation')}}">Skin Rejuvenation</a>
                                                              </h5>
                                                              <p>Aenean tempor leo lectus sit amet consectetur ex
                                                                  vehicula non. </p>
@@ -212,7 +212,7 @@
                                                          <img src="{{ asset('assets/images/menu-icon.png') }}"
                                                              class="align-self-center mr-3" alt="...">
                                                          <div class="media-body">
-                                                             <h5><a href="prp.html">PRP</a></h5>
+                                                             <h5><a href="{{route('prp')}}">PRP</a></h5>
                                                              <p>Aenean tempor leo lectus sit amet consectetur ex
                                                                  vehicula non. </p>
                                                          </div>
@@ -238,8 +238,8 @@
           </ul>
          </div>
         </li>-->
-                                 <li><a href="our-doctors.html">Our Doctors</a></li>
-                                 <li><a href="contact-us.html" class="btn-grad">Contact Us</a></li>
+                                 <li><a href="{{route('our-doctors')}}">Our Doctors</a></li>
+                                 <li><a href="{{route('contact-us')}}" class="btn-grad">Contact Us</a></li>
                              </ul>
                          </nav>
                          <div class="header-item-right">

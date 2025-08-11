@@ -20,10 +20,68 @@ class FrontendController extends Controller
         return view('botox');
     }
 
-      public function bodySculpting()
+    public function bodySculpting()
     {
         return view('body-sculpting');
     }
 
-    
+    public function dermapenAndDermaroller()
+    {
+        return view('dermapen-and-dermaroller');
+    }
+
+    public function fillers()
+    {
+        return view('fillers');
+    }
+
+    public function stemCellTreatment()
+    {
+        return view('stem-cell-treatment');
+    }
+
+    public function hairTransplant()
+    {
+        return view('hair-transplant');
+    }
+
+    public function mesotherapy()
+    {
+        return view('mesotherapy');
+    }
+
+    public function doubleChinReduction()
+    {
+        return view('double-chin-reduction');
+    }
+
+    public function skinRejuvenation()
+    {
+        return view('skin-rejuvenation');
+    }
+
+    public function lasers()
+    {
+        return view('lasers');
+    }
+
+    public function medifacial()
+    {
+        return view('medifacial');
+    }
+
+    public function prp()
+    {
+        return view('prp');
+    }
+
+    public function ourDoctors()
+    {
+        return view('our-doctors');
+    }
+
+    public function contactUs()
+    {
+        return view('contact-us');
+    }
 }
