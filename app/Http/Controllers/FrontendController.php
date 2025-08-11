@@ -2,13 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Doctor;
+use App\Models\Testimonial;
 use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
     public function index()
     {
-        return view('index');
+        $testimonials = Testimonial::all();
+        $doctors = Doctor::all();
+        return view('index', compact('testimonials', 'doctors'));
     }
 
     public function about()
@@ -77,7 +81,8 @@ class FrontendController extends Controller
 
     public function ourDoctors()
     {
-        return view('our-doctors');
+        $doctors = Doctor::all();
+        return view('our-doctors', compact('doctors'));
     }
 
     public function contactUs()
